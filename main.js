@@ -10,7 +10,7 @@ hamburgerMenu.click(
 
 //creo una variabile nascondi e all'evento click dichiarando nascondi= true si manifesta l'evento show con modalità slow
 var nascondi;
-$('a').click(
+$('.header-right > a').click(
  function() {
   if (nascondi = true) {
     $(".hamburger-menu").show('slow');
